@@ -65,5 +65,10 @@ h2{
     text-align: center;
     text-decoration: none;
     color: #fff;
-  }
+    cursor: pointer;
+}
+.boxButton:hover{
+    background-color: #ffffff1c;
+    transition: 1s;
+}
   
