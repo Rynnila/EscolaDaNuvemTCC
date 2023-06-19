@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Habilidades</title>
     <link rel="stylesheet" type="text/css" href="../../../css/perfil.css">
+    <link rel="stylesheet" type="txt/css" href="../../../css/habilidades.css">
+    <style>
+        .quadrados li::before{
+            background-color: #993C26; 
+        }
+    </style>
 </head>
 <body>
     <div id="fundo_estrelado">
@@ -33,7 +39,30 @@
                         <p class="txtIcon">Formação</p>
                     </div>
                 </button>
+                <button class="boxButton" onclick="irPara('../../index.html')">
+                    <div class="botaoVoltar">
+                        <p>Voltar</p>
+                    </div>
+                </button>
             </nav>
+            <div class="conteudoHabilidades">
+                <div class="coluna1">
+                    <ul class="quadrados">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>React JS</li>
+                        <li>Node</li>
+                      </ul>
+                </div>
+                <div class="coluna2">
+                    <ul class="quadrados">
+                        <li>JavaScript</li>
+                        <li>MySQL</li>
+                        <li>Figma</li>
+                        <li>AWS Cloud</li>
+                      </ul>
+                </div>
+            </div>
         </div>
     </div>
     <script src="../../../js/navegacao.js"></script>
