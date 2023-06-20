@@ -2,47 +2,80 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body{
-    position: relative;
-    max-width: 100vw;
-    max-height: 100vh;
-    background-color: #060606;
-    overflow: hidden;
-}
-#containerAll {
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1.2rem;
-    color: white;
-    border-radius: 2%;
-    width: 57%;
-    height:90%;
+  }
+  body{
+    width: 100vw;
+    height: 100vh;
+    background: #060606 url("../img/fundo_de_estrelas.png");
+    font-family: 'Poppins', sans-serif;
+  }
+  #fundo_estrelado{
     display: flex;
-    background-color: #ff0000;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-}
-.sobreBox{
+    margin-top: 3%;
+  }
+  #conteiner-cv{
+    background-color: rgba(61, 61, 61, 0.18);
+    width: 50%;
+    padding: 40px 60px 30px;
+    margin-bottom: 3%;
+    border-radius: 2%;
     position: relative;
-    background-color: aquamarine;
-    width: 100%;
-    height: 20%;
+  }
+  #cvVoltar-home{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(130, 129, 129, 0.18);
+    position: absolute;
+    top: 2%;
+    right: 4%;
+    width: 5%;
+    height: 3%;
+    border-radius: 100%;
+    padding:7px 13px;
+  }
+  #cvVoltar-home:hover{
+    background-color: rgba(88, 84, 84, 0.214);
+  }
+  #titulo-conteinerCV{
+    border-bottom: 1px solid rgb(158, 157, 157);
+    width: 33%;
+    margin-left: 1.5%;
+    margin-bottom: 4%;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(218, 216, 216);
+  }
+  .card-listaCv{
     display: flex;
-}
-.imgCurriculo{
-    position: relative;
-    width: 30%;
-    padding: 1em;
-}
-.imgCurriculo img{
-    width: 80%;
-    max-width: 100%;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .card{
+    background-color: rgba(156, 156, 156, 0.18);
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+  }
+  .img-listaCv{
+    height: 150px;
     border-radius: 50%;
-}
-.txtCurriculo{
-    background-color: blueviolet;
-    width: 70%;
-}
+  }
+  .card-conteudo{
+    color: white;
+  }
+  .card-conteudo h4 a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    border-bottom: 1px solid white;
+  }
+  .card-conteudo p{
+    font-weight: 200;
+    margin-top: 10px;
+  
+  }
