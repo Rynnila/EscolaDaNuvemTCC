@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    width: 100vw;
+    height: 100vh;
+    background: #060606 url("../img/fundo-de-estrelas.png");
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+  }
+  #fundo_estrelado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3%;
+  }
+  #conteiner-cv{
+    background-color: rgba(61, 61, 61, 0.18);
+    width: 60%;
+    padding: 40px 60px 30px;
+    margin-bottom: 3%;
+    border-radius: 2%;
+    position: relative;
+  }
+  #cvVoltar-home{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(130, 129, 129, 0.18);
+    position: absolute;
+    top: 2%;
+    right: 4%;
+    width: 4%;
+    height: 3%;
+    border-radius: 100%;
+    padding:4px 13px;
+  }
+  #cvVoltar-home:hover{
+    color: rgb(71, 71, 71);
+  }
+  #titulo-conteinerCV{
+    border-bottom: 1px solid rgb(158, 157, 157);
+    width: 27%;
+    margin-left: 1.5%;
+    margin-bottom: 4%;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(218, 216, 216);
+  }
+  .card-listaCv{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .card{
+    background-color: rgba(156, 156, 156, 0.18);
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-listaCv{
+    height: 150px;
+    border-radius: 50%;
+  }
+  .card-conteudo{
+    color: white;
+  }
+  .card-conteudo h4 a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    border-bottom: 1px solid white;
+  }
+  .card-conteudo p{
+    font-weight: 200;
+    margin-top: 10px;
+  
+  }
+
+
+@media screen and (max-width: 600px) {
+  #conteiner-cv{
+    width: 90%;
+    padding: 20px 15px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #060606;
+  }
+  #cvVoltar-home{
+    top: 0%;
+    right: 10%;
+    height: 1%;
+  }
+  #cvVoltar-home:hover{
+    color: rgb(71, 71, 71);
+    background-color:#060606;
+  }
+  #titulo-conteinerCV{
+    font-size: 16px;
+    width: 140px;
+    position: absolute;
+    top: 0%;
+  }
+  .card-listaCv{
+    margin-top: 20px;
+    width: 100%;
+  }
+  .card{
+    width: 100%;
+    flex-flow: row wrap; 
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 850px){
+  #conteiner-cv{
+    width: 85%;
+  }
+  #titulo-conteinerCV{
+    width: 45%; 
+  }
+  #cvVoltar-home{
+    right: 10%;
+    padding: 4px 8px;
+  }
+  #cvVoltar-home{
+    height: 2.5%;
+   
+
+  }
+
+}
