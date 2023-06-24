@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+body{
+    position: relative;
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color: #060606;
+    overflow: hidden;
+}
+#containerAll {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 2%;
+    width: 57%;
+    height:90%;
+    display: flex;
+    background-color: #0D0D0D;
+    flex-direction: column;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    height: 20%;
+    border-bottom: 0.2em solid white;
+    display: flex;
+    justify-content: center;
+}
+  
+.boxButton {
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5%;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    align-items: center;
+
+}
+.botaoVoltar{
+    margin:0px;
+    color: aliceblue;
+    font-size: 1.5rem;
+    border-radius: 2px;
+    padding: 0.1rem;
+}
+.botaoVoltar:hover{
+    background-color: #ffffff0a;
+    transition: 300ms;
+}
+
+.imgIcon {
+    width: 55%;
+}
+  
+.txtIcon {
+    font-size: 1.2em;
+    color: white;
+    margin-top: auto;
+}
+
+/* -----Perfil--------- */ 
+.conteudoCurriculo{
+    position: relative;
+    height: 80%;
+}
+.imgPerfil{
+    height: 40%;
+    border-radius: 50%;
+    margin-bottom: auto;
+    margin-top: 1vh;
+}
+.txtPerfil{
+    height: 30%;
+    width: 90%;
+    justify-content: center;
+    display: inline-block;
+    text-align: justify;
+}
+.txtPerfil h1{
+    text-align: center;
+}
+.contatoIcons{
+    position: relative;
+    height: 20%;
+    margin-top: 1.2em;
+    display: flex;
+    justify-content: center;
+}
+.iconSocial{
+    display: inline-block;
+    border: none;
+    border-radius: 50%;
+    width: 7em;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0% 1.5em;
+}
+
+/* -----HABILIDADES--------- */
+.conteudoHabilidades{
+    height: 80%;
+    display: flex;
+    align-items: auto;
+    text-align: left;
+}
+.coluna1{
+    width: 50%;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.coluna2{
+    width: 50%;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+} 
+.quadrados {
+    list-style-type: none;
+}
+.quadrados li{
+    margin-bottom: 3rem;
+}
+.quadrados li::before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 1rem; 
+}
+
+/* -----PROJETOS--------- */
+.conteudoProjetos{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 1.5rem;
+}
+.textoProjeto{
+    display: flex;
+    height: auto;
+    max-height: 100%;
+    width: 90%;
+    margin: 0px auto auto auto;
+    justify-content: left;
+    text-align: left;
+    flex-direction: column;
+}
+.textoProjeto h2{
+    font-size: 1.5rem;
+}
+.textoProjeto p{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* -----FORMAÇÃO--------- */
+.conteudoFormacao{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    max-height: 100%    ;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 1.5rem;
+}
+.textoFormacao{
+    display: flex;
+    height: auto;
+    width: 90%;
+    margin: 0px auto auto auto;
+    justify-content: left;
+    text-align: left;
+    flex-direction: column;
+}
+.textoFormacao h2{
+    font-size: 1.5rem;
+}
+.textoFormacao p{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+/*-----ANIMAÇÃO-----*/
+.animacao-surgir {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
