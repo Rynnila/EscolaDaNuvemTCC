@@ -24,9 +24,8 @@ body{
     width: 57%;
     height:90%;
     display: flex;
-    background-color: #202020;
+    background-color: #0D0D0D;
     flex-direction: column;
-    align-items: center;
 }
 
 nav {
@@ -51,7 +50,18 @@ nav {
     align-items: center;
 
 }
-  
+.botaoVoltar{
+    margin:0px;
+    color: aliceblue;
+    font-size: 1.5rem;
+    border-radius: 2px;
+    padding: 0.1rem;
+}
+.botaoVoltar:hover{
+    background-color: #ffffff0a;
+    transition: 300ms;
+}
+
 .imgIcon {
     width: 55%;
 }
@@ -62,6 +72,7 @@ nav {
     margin-top: auto;
 }
 
+/* -----Perfil--------- */ 
 .conteudoCurriculo{
     position: relative;
     height: 80%;
@@ -98,4 +109,99 @@ nav {
     text-decoration: none;
     cursor: pointer;
     margin: 0% 1.5em;
+}
+
+/* -----HABILIDADES--------- */
+.conteudoHabilidades{
+    height: 80%;
+    display: flex;
+    align-items: auto;
+    text-align: left;
+}
+.coluna1{
+    width: 50%;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.coluna2{
+    width: 50%;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+} 
+.quadrados {
+    list-style-type: none;
+}
+.quadrados li{
+    margin-bottom: 3rem;
+}
+.quadrados li::before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 1rem; 
+}
+
+/* -----PROJETOS--------- */
+.conteudoProjetos{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 1.5rem;
+}
+.textoProjeto{
+    display: flex;
+    height: auto;
+    max-height: 100%;
+    width: 90%;
+    margin: 0px auto auto auto;
+    justify-content: left;
+    text-align: left;
+    flex-direction: column;
+}
+.textoProjeto h2{
+    font-size: 1.5rem;
+}
+.textoProjeto p{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* -----FORMAÇÃO--------- */
+.conteudoFormacao{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    max-height: 100%    ;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 1.5rem;
+}
+.textoFormacao{
+    display: flex;
+    height: auto;
+    width: 90%;
+    margin: 0px auto auto auto;
+    justify-content: left;
+    text-align: left;
+    flex-direction: column;
+}
+.textoFormacao h2{
+    font-size: 1.5rem;
+}
+.textoFormacao p{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+/*-----ANIMAÇÃO-----*/
+.animacao-surgir {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
 }
