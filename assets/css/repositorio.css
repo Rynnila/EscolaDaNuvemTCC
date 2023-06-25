@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  background: #060606 url("../img/fundo-de-estrelas.png");
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteiner-repositorio{
+  position: relative;
+  background-color: #3d3d3d2e;
+  width: 50%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+.sair-repositorio{
+  position: absolute;
+  right: 35px;
+  top:30px;
+  text-decoration: none;
+  color: rgb(101, 100, 100);
+  padding-top: 3px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.sair-repositorio:hover{
+  color: rgb(252, 252, 252)
+}
+.conteiner-repositorio h1{
+  position: absolute;
+  top: 15%;
+  font-size: 2.5rem;
+  line-height: 1.2em;
+  letter-spacing: 1px;
+}
+figure{
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+.qrcodeGithub{
+  width: 95%;
+}
+.link-repositorio{
+  text-decoration: none;
+  color:rgba(128, 128, 128, 0.379);
+  border-bottom: 1px solid #80808061;  
+}
+
+@media screen and (max-width: 500px){
+  .conteiner-repositorio{
+    width: 80%
+  }
+  .conteiner-repositorio h1{
+    font-size: 2rem;
+    text-align: center;
+    top: 16%;
+  }
+  .qrcodeGithub{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 365px){
+  figure{
+    margin-top: 30%;
+  }
+}
+
+@media screen and (min-width:501px) and (max-width: 1024px){
+  .conteiner-repositorio{
+    width: 80%;
+  }
+}
+
+@media screen and (min-width:501px) and (max-width: 601px){
+    .conteiner-repositorio h1{
+    font-size: 2rem;
+    text-align: center;
+    top: 16%;
+  }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre</title>
+    <link rel="icon" href="../favicon/favicon32.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="../css/sobre.css" />
+  </head>
+  <body>
+    <div id="fundo-estrelado-sobre">
+      <article class="conteiner-sobre">
+        <h1>SOBRE</h1>
+        <a class="sair-sobre" href="./index.html">X</a>
+        <p class="paragrafo1-sobre">
+          Projeto de conlusão de curso elaborado por alunos da
+          <a href="https://escoladanuvem.org/" target="_blank">
+            Escola da Nuvem</a
+          >. <br />
+        </p>
+        <p class="paragrafo1-sobre">
+          O objetivo deste projeto é criar um
+          <strong>Site de Currículos</strong> e hospedar na
+          <a href="https://aws.amazon.com/pt/" target="_blank">AWS</a>.
+        </p>
+
+        <section class="requisitos-sobre">
+          <p><strong>Os Requisitos do projeto são:</strong></p>
+          <ul class="lista-conteudo">
+            <li class="conteudo">&#8226; Rede de entrega de conteúdo;</li>
+            <li class="conteudo">&#8226; Baixa latência;</li>
+            <li class="conteudo">&#8226; Armazenamento durável;</li>
+            <li class="conteudo">&#8226; 11 milhões de requisições por mês.</li>
+          </ul>
+        </section>
+        <p class="paragrafo2-sobre">
+          Com esses requisitos obtidos, analisou-se por entregar o projeto no
+          <strong>S3</strong> com distribuição sendo realizada através do
+          <strong>CloudFront</strong> e hospedado em
+          <strong>América do Sul<i>(sa-east-1)</i></strong
+          >, com S3 temos um armazenamento altamente disponível e escalável,
+          devido à replicação automática dos dados em regiões variadas e também
+          pelo custo baixo.
+        </p>
+        <p class="paragrafo3-sobre">
+          Já o CloudFront ajuda na rapidez da entrega do conteúdo aos usuários
+          de localidades distintas. Também faz o cache dos objetos estáticos de
+          forma distribuída em servidores pelo mundo o que garante a entrega
+          mais rápida do conteúdo.
+        </p>
+      </article>
+    </div>
+    <script src="../js/navegacao.js"></script>
+  </body>
+</html>

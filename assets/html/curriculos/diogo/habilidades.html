@@ -1,70 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Habilidades</title>
-    <link rel="stylesheet" type="text/css" href="../../../css/perfil.css">
-    <link rel="stylesheet" type="txt/css" href="../../../css/habilidades.css">
+    <link
+      rel="icon"
+      href="../../../favicon/favicon32.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="../../../css/perfil.css" />
+    <link rel="stylesheet" type="txt/css" href="../../../css/habilidades.css" />
     <style>
-        .quadrados li::before{
-            background-color: #629CE6; 
-        }
+      .quadrados li::before {
+        background-color: #629ce6;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div id="fundo_estrelado">
-        <img src="../../../img/fundo de estrelas.png">
-        <div id="containerAll">
-            <nav>
-                <button class="boxButton" onclick="irPara('perfil.html')">  
-                    <img class="imgIcon" src="../../../img/PerfilProfissional.svg"/>
-                    <p class="txtIcon">Perfil Profissional</p>
-                </button>
-                <button class="boxButton">
-                    <div class="botao">
-                        <img class="imgIcon" src="../../../img/Habilidades.svg"/>
-                        <p class="txtIcon"  style="border-bottom: 0.25em solid #629CE6;">Habilidades</p>
-                    </div>
-                </button>
-                <button class="boxButton" onclick="irPara('./projetos.html')">
-                    <div class="botao">
-                        <img class="imgIcon" src="../../../img/Projetos.svg"/>
-                        <p class="txtIcon">Projetos</p>
-                    </div>
-                </button>
-                <button class="boxButton" onclick="irPara('./formacao.html')">
-                    <div class="botao">
-                        <img class="imgIcon" src="../../../img/Formacao.svg"/>
-                        <p class="txtIcon">Formação</p>
-                    </div>
-                </button>
-                <button class="boxButton" onclick="irPara('../../curriculos.html')">
-                    <div class="botaoVoltar">
-                        <p>Voltar</p>
-                    </div>
-                </button>
-            </nav>
-            <div class="conteudoHabilidades">
-                <div class="coluna1">
-                    <ul class="quadrados">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>React JS</li>
-                        <li>Java</li>
-                      </ul>
-                </div>
-                <div class="coluna2">
-                    <ul class="quadrados">
-                        <li>JavaScript</li>
-                        <li>MySQL</li>
-                        <li>Figma</li>
-                        <li>AWS Cloud</li>
-                      </ul>
-                </div>
+      <img src="../../../img/fundo de estrelas.png" />
+      <div id="containerAll">
+        <nav>
+          <button class="boxButton" onclick="irPara('perfil.html')">
+            <img class="imgIcon" src="../../../img/PerfilProfissional.svg" />
+            <p class="txtIcon">Perfil Profissional</p>
+          </button>
+          <button class="boxButton">
+            <div class="botao">
+              <img class="imgIcon" src="../../../img/Habilidades.svg" />
+              <p class="txtIcon" style="border-bottom: 0.25em solid #629ce6">
+                Habilidades
+              </p>
             </div>
+          </button>
+          <button class="boxButton" onclick="irPara('./projetos.html')">
+            <div class="botao">
+              <img class="imgIcon" src="../../../img/Projetos.svg" />
+              <p class="txtIcon">Projetos</p>
+            </div>
+          </button>
+          <button class="boxButton" onclick="irPara('./formacao.html')">
+            <div class="botao">
+              <img class="imgIcon" src="../../../img/Formacao.svg" />
+              <p class="txtIcon">Formação</p>
+            </div>
+          </button>
+          <button class="boxButton" onclick="irPara('../../curriculos.html')">
+            <div class="botaoVoltar">
+              <p>Voltar</p>
+            </div>
+          </button>
+        </nav>
+        <div class="conteudoHabilidades">
+          <div class="coluna1">
+            <ul class="quadrados">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>React JS</li>
+              <li>Java</li>
+            </ul>
+          </div>
+          <div class="coluna2">
+            <ul class="quadrados">
+              <li>JavaScript</li>
+              <li>MySQL</li>
+              <li>Figma</li>
+              <li>AWS Cloud</li>
+            </ul>
+          </div>
         </div>
+      </div>
     </div>
     <script src="../../../js/navegacao.js"></script>
-</body>
+  </body>
 </html>
