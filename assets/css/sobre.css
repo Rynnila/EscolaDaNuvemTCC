@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  background: #060606 url("../img/fundo-de-estrelas.png");
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  color: rgb(252, 252, 252);
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+#fundo-estrelado-sobre{
+  width:100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteiner-sobre{
+  background-color: rgba(61, 61, 61, 0.18);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 3%;
+  border-radius: 2%;
+  margin: auto;
+}
+/*botão sair*/
+.conteiner-sobre .sair-sobre{
+  position: absolute;
+  right: 20px;
+  top:10px;
+  text-decoration: none;
+  color: rgb(101, 100, 100);
+  padding-top: 3px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.sair-sobre:hover{
+  color: rgb(252, 252, 252)
+}
+.conteiner-sobre h1{
+  border-bottom: 1px solid white;
+  width: 105px;
+  margin-bottom: 3%;
+  letter-spacing: 3px;
+}
+.paragrafo1-sobre{
+  margin-bottom: 0.5%;
+}
+.paragrafo1-sobre a{
+  color: white;
+  border-bottom: 1px solid white;
+  text-decoration: none;
+}
+/*lista de requisitos*/
+.requisitos-sobre{
+  margin-top: 1.5%;
+  margin-bottom: 2%;
+  line-height: 35px;
+}
+.lista-conteudo{
+  list-style-type:none; 
+}
+
+.paragrafo2-sobre{
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 599px) {
+  body{
+    font-size: 1rem;
+  }
+  .conteiner-sobre{
+    margin-top: 10%;
+  }
+  .paragrafo1-sobre{
+    margin-top: 8%;
+  }
+  .requisitos-sobre{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+
+
+
