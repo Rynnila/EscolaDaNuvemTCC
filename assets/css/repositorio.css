@@ -30,14 +30,14 @@ body{
   right: 35px;
   top:30px;
   text-decoration: none;
-  color: rgb(101, 100, 100);
+  color: rgb(218, 215, 215);
   padding-top: 3px;
   width: 30px;
   height: 30px;
   text-align: center;
 }
 .sair-repositorio:hover{
-  color: rgb(252, 252, 252)
+  color: rgb(104, 103, 103)
 }
 .conteiner-repositorio h1{
   position: absolute;

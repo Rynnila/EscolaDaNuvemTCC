@@ -20,7 +20,7 @@
       <img src="../../../img/fundo de estrelas.png" />
       <div id="containerAll">
         <nav>
-          <button class="boxButton">
+          <button id="iconPerfil" class="boxButton">
             <img class="imgIcon" src="../../../img/PerfilProfissional.svg" />
             <p class="txtIcon" style="border-bottom: 0.25em solid #629ce6">
               Perfil Profissional
@@ -28,7 +28,7 @@
           </button>
           <button class="boxButton" onclick="irPara('./habilidades.html')">
             <div class="botao">
-              <img class="imgIcon" src="../../../img/Habilidades.svg" />
+              <img class="imgIcon" src="../../../img/settings.png" />
               <p class="txtIcon">Habilidades</p>
             </div>
           </button>
@@ -44,9 +44,13 @@
               <p class="txtIcon">Formação</p>
             </div>
           </button>
-          <button class="boxButton" onclick="irPara('../../curriculos.html')">
+          <button
+            id="iconVoltar"
+            class="boxButton"
+            onclick="irPara('../../curriculos.html')"
+          >
             <div class="botaoVoltar">
-              <p>Voltar</p>
+              <img class="imgIcon" src="../../../img/exit.png" />
             </div>
           </button>
         </nav>

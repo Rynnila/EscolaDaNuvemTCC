@@ -8,9 +8,9 @@
 body{
     position: relative;
     max-width: 100vw;
-    max-height: 100vh;
+    max-height: 1000px;
     background-color: #060606;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 #containerAll {
     position: absolute;
@@ -22,7 +22,6 @@ body{
     color: white;
     border-radius: 2%;
     width: 57%;
-    height:90%;
     display: flex;
     background-color: #0D0D0D;
     flex-direction: column;
@@ -205,3 +204,166 @@ nav {
     opacity: 0;
     transition: opacity 0.2s ease-in-out;
 }
+
+@media screen and (max-width: 601px){
+    #containerAll {
+        width: 90%;
+    }
+    nav{
+        justify-content: space-around;
+        height: 10%;
+    }
+    .boxButton {
+       width: 20%;
+       margin: 5% auto;
+    
+    }
+    .botaoVoltar:hover{
+        background-color: #ffffff00;
+        transition: 300ms;
+    }
+    .imgIcon {
+        width: 30px;
+    }
+    .txtIcon {
+        display: none;
+    } 
+    
+
+    /*--Perfil--*/
+    .imgPerfil{
+        height: 30vh;
+        margin-top: 5%;
+    }
+    .txtPerfil h1{
+        text-align: center;
+        font-size:1.5em ;
+    }
+    .txtPerfil p{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    .contatoIcons{
+        height: 100px;
+        margin-top: 1.2em;
+        margin-bottom: 1.0em;
+    }
+
+    /*--Habilidades--*/
+    .conteudoHabilidades{
+        margin-top: 5%;
+    }    
+    
+    /*--Formação--*/
+    
+    .conteudoFormacao{
+        gap:20px
+    }
+}
+
+@media screen and (min-width: 602px) and (max-width: 836px){
+    #containerAll {
+        width: 90%;
+        margin-top: 100px;
+
+    }
+    .txtIcon {
+        display: block;
+        margin: 10px;
+        
+    }  
+    nav{
+        justify-content: space-around;
+        height: 10%;
+    }
+    .boxButton {
+       width: 20%;
+       margin: 5% auto;
+    
+    }
+    .botaoVoltar:hover{
+        background-color: #ffffff00;
+        transition: 300ms;
+    }
+    .imgIcon {
+        width: 30px;
+    } 
+
+    /*--Perfil--*/
+    .imgPerfil{
+        height: 30vh;
+        margin-top: 5%;
+    }
+    .txtPerfil h1{
+        text-align: center;
+        font-size:1.5em ;
+    }
+    .txtPerfil p{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    .contatoIcons{
+        height: 100px;
+        margin-top: 1.2em;
+        margin-bottom: 1.0em;
+    }
+
+    /*--Habilidades--*/
+    .conteudoHabilidades{
+        margin-top: 5%;
+    }
+
+    /*--Formação--*/
+    .conteudoFormacao{
+        gap:20px
+    } 
+    #iconPerfil{
+        border-bottom: none;
+        
+    } 
+}
+
+@media screen and (min-width: 836px) and (max-width: 1024px) {
+    #containerAll {
+        width: 70%;   
+    }
+    .imgPerfil{
+        height: 40vh;
+        margin-top: 5%;
+    }
+    .imgIcon {
+        width: 40px;
+    } 
+    .contatoIcons{
+        height: 100px;
+        margin-top: 1.2em;
+        margin-bottom: 1.0em;
+    }
+    .txtIcon {
+        display: block;
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    #containerAll {
+        width: 70%;   
+    }
+    nav{
+        height: 15vh;
+    }
+    .imgPerfil{
+        height: 40vh;
+        margin-top: 2%;
+    }
+    .imgIcon {
+        width: 40px;
+    } 
+    .contatoIcons{
+        height: 100px;
+        margin-top: 1.2em;
+        margin-bottom: 1.0em;
+    }
+    
+}
+

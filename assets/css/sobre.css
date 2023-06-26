@@ -36,14 +36,14 @@ body{
   right: 20px;
   top:10px;
   text-decoration: none;
-  color: rgb(101, 100, 100);
+  color: rgb(221, 217, 217);
   padding-top: 3px;
   width: 30px;
   height: 30px;
   text-align: center;
 }
 .sair-sobre:hover{
-  color: rgb(252, 252, 252)
+  color: rgb(117, 116, 116)
 }
 .conteiner-sobre h1{
   border-bottom: 1px solid white;
@@ -88,6 +88,7 @@ body{
     margin-bottom: 15px;
   }
 }
+
 
 
 
